@@ -1,9 +1,10 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
+import Contact from '../../components/Contact';
 
 const About = () =>(
     <Container>
-        <h1>About Page</h1>
+        <Contact />
     </Container>
 );
 
