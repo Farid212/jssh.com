@@ -6,11 +6,7 @@ import {
   MDBNavbarToggler,
   MDBCollapse,
   MDBNavItem,
-  MDBNavLink,
-  MDBContainer,
-  MDBMask,
-  MDBView,
-  MDBIcon
+  MDBNavLink
  } from 'mdbreact';
 import { Link } from 'react-router-dom';
 
@@ -34,8 +30,7 @@ class Navigation extends React.Component {
     return (
       <div>
         <header>
-          <>
-            <MDBNavbar color="bg-primary" fixed="top" light expand="md" scrolling transparent>
+            <MDBNavbar fixed="top" light expand="md" scrolling transparent>
               <MDBNavbarBrand href="/">
                 <strong>JSSH</strong>
               </MDBNavbarBrand>
@@ -46,10 +41,10 @@ class Navigation extends React.Component {
                     <MDBNavLink to="#section1">Section1</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#Section2">Section2</MDBNavLink>
+                    <MDBNavLink to="#section2">Section2</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#Section3">Section3</MDBNavLink>
+                    <MDBNavLink to="#section3">Section3</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
@@ -65,7 +60,6 @@ class Navigation extends React.Component {
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </>
         </header>
       </div>
     );
