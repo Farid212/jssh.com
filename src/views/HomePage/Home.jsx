@@ -1,10 +1,11 @@
 import React from 'react'
 import Jumbotron from '../../components/Jumbotron';
 import Features from '../../components/Features';
-import FeaturesV2 from '../../components/FeaturesV2';
-import TabsJustified from '../../components/TabsJustified';
-
+import Project from '../../components/Project';
+import Footer from '../../components/Footer';
 import { MDBContainer } from 'mdbreact';
+
+import 'mdbreact/dist/css/mdb.css';
 
 
 const Home = () =>(
@@ -17,13 +18,12 @@ const Home = () =>(
         <Features />
       </section>
       <section id="section3">
-        <FeaturesV2 />
-      </section>
-      <section id="section4">
-        <TabsJustified />
+        <Project />
       </section>
     </MDBContainer>
-
+    <section id="section4">
+      <Footer />
+    </section>
   </>
 );
 
