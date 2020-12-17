@@ -1,4 +1,3 @@
-import React from "react";
 import { MDBJumbotron, MDBBtn, MDBCol, MDBIcon } from "mdbreact";
 
 const Jumbotron = () => {
@@ -10,7 +9,10 @@ const Jumbotron = () => {
           <p className="mx-5 mb-5"  style={{color: "black"}} >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
             optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
           </p>
-          <MDBBtn outline style={{border: "1px solid black"}} className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon> View project</MDBBtn>
+          <div>
+            <MDBBtn outline style={{border: "1px solid black"}} className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon>WEB</MDBBtn>
+            <MDBBtn outline style={{border: "1px solid black"}} className="mb-5"><MDBIcon icon="clone" className="mr-2"></MDBIcon>NPM</MDBBtn>
+          </div>
         </MDBCol>
       </MDBCol>
     </MDBJumbotron>
