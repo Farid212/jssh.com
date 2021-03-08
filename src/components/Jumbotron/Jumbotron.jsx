@@ -5,7 +5,7 @@ const Jumbotron = () => {
     <MDBJumbotron style={{ padding: 0 }}>
       <MDBCol className="text-white text-center py-5 px-4" style={{ backgroundColor: "#ffe51f" }}>
         <MDBCol className="py-5">
-          <h1 style={{color: "black"}} className="pt-3 m-5 font-bold">Become a JavaScript Super Hero!</h1>
+          <h1 style={{color: "black"}} className="pt-3 m-5 font-bold">JavaScript Super Hero!</h1>
           <p className="mx-5 mb-5"  style={{color: "black"}} >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
             optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
           </p>

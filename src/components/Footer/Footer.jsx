@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from 'react-bootstrap';
 
 const Footer = () => (
 
@@ -58,15 +57,11 @@ const Footer = () => (
         <div>
             <div>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", color: "white" }}>
-                    &copy; {1900 + new Date().getYear()}, made with{" "}
-                Love by
-                <NavLink to="https://github.com/farid212/"
-                        target="_blank"
-                        style={{color: "yellow"}}
-                    >
-                        Farid212
-                </NavLink>
-                for a better web.
+                    &copy; {1900 + new Date().getYear()}, made by  
+                    <a rel="noreferrer" href="https://farid.212.dev/" target="_blank" style={{color: "yellow", marginLeft: "3px", marginRight: "3px"}}>
+                    {" "}Farid212{" "}
+                    </a>
+                    for a better web.
                 </div>
             </div>
         </div>
